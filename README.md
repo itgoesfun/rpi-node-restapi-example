@@ -34,7 +34,7 @@ $ docker run -p 8080:8080 -d rpi-node-restapi-example
 
 ### Step 3: Test it
 
-Open a web browser and enter the following `http://<Raspberry Pi ip>:8080` or use `curl` to connect to the container as follows.
+Open a web browser and enter the following `http://<Raspberry Pi ip>:8080/api/v1/animals` or use `curl` to connect to the container as follows.
 
 ```bash
 curl http://<Raspberry Pi ip>:8080/api/v1/animals
